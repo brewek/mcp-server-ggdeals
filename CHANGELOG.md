@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/brewek/mcp-server-ggdeals/compare/v1.0.1...v1.0.2) (2026-06-07)
+
+
+### Bug Fixes
+
+* **ci:** format workflows and add repository url for provenance ([6c9459e](https://github.com/brewek/mcp-server-ggdeals/commit/6c9459ee01df2469a0d354d11a90b3a9ecfcc970))
+
 ## [1.0.1](https://github.com/brewek/mcp-server-ggdeals/compare/v1.0.0...v1.0.1) (2026-06-07)
 
 

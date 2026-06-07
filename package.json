@@ -7,6 +7,10 @@
     "mcp-server-ggdeals": "./build/index.js"
   },
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brewek/mcp-server-ggdeals.git"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",

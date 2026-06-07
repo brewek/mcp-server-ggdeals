@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/brewek/mcp-server-ggdeals/compare/v1.0.2...v1.0.3) (2026-06-07)
+
+
+### Bug Fixes
+
+* secret name ([0933e08](https://github.com/brewek/mcp-server-ggdeals/commit/0933e0813d44270ad8ff1cdd26783057b96fe60d))
+* trigger release to publish updated README to npm ([7566bfd](https://github.com/brewek/mcp-server-ggdeals/commit/7566bfd13d0b314edb472f1036cb48a34edc5f50))
+
 ## [1.0.2](https://github.com/brewek/mcp-server-ggdeals/compare/v1.0.1...v1.0.2) (2026-06-07)
 
 

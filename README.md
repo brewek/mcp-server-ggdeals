@@ -1,6 +1,6 @@
 # mcp-server-ggdeals
 
-[![CI](https://github.com/your-org/mcp-server-ggdeals/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/mcp-server-ggdeals/actions/workflows/ci.yml)
+[![CI](https://github.com/brewek/mcp-server-ggdeals/actions/workflows/ci.yml/badge.svg)](https://github.com/brewek/mcp-server-ggdeals/actions/workflows/ci.yml)
 
 A Model Context Protocol (MCP) server for integrating with [gg.deals](https://gg.deals/). Designed for Large Language Models to fetch game prices, historical lows, and bundles.
 

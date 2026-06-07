@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/brewek/mcp-server-ggdeals/compare/v1.0.3...v1.0.4) (2026-06-07)
+
+
+### Bug Fixes
+
+* update license to CC-BY-NC-4.0 and author ([55e4a5f](https://github.com/brewek/mcp-server-ggdeals/commit/55e4a5fe63f2e3fe5ef3107756cd095c09e327e7))
+
 ## [1.0.3](https://github.com/brewek/mcp-server-ggdeals/compare/v1.0.2...v1.0.3) (2026-06-07)
 
 

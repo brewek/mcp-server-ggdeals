@@ -25,6 +25,7 @@ Use `npx` to run the server instantly in your MCP Client (e.g., Claude Desktop).
 ```
 
 _Note: `GG_DEALS_API_KEY` is optional but recommended to avoid rate limits._
+You can generate your API key by logging into your account: [https://gg.deals/settings/](https://gg.deals/settings/) -> **"Connections"** -> **GG.deals API key**.
 
 ## Available Tools
 

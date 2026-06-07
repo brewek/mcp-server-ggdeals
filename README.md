@@ -29,7 +29,9 @@ You can generate your API key by logging into your account: [https://gg.deals/se
 
 ## Available Tools
 
-- `search_games`: Find a base game ID by title. _(Note: This tool directly queries the official Steam Store API to bypass gg.deals anti-bot protections and accurately retrieve the definitive Steam App ID, which is the cornerstone for all other price and bundle lookups)._
+`
+
+- `search_games`: Find a base game ID by title. (Note: This tool queries Steam Store API to retrieve Steam App ID, which is used for all gg.deals api calls).
 - `get_game_prices`: Fetch current prices (Official & Keyshops).
 - `get_historical_low`: Fetch the all-time lowest price.
 - `get_game_bundles`: Fetch Premium/Deluxe DLC bundles linked to a base game.

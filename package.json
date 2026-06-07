@@ -39,8 +39,8 @@
     "steam",
     "deals"
   ],
-  "author": "Open Source Community",
-  "license": "ISC",
+  "author": "brewek",
+  "license": "CC-BY-NC-4.0",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "axios": "^1.17.0",

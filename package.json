@@ -1,6 +1,6 @@
 {
   "name": "mcp-server-ggdeals",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Model Context Protocol (MCP) server for fetching video game deals, historical lows, and bundles from gg.deals.",
   "main": "build/index.js",
   "bin": {

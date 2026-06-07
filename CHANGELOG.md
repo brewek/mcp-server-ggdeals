@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/brewek/mcp-server-ggdeals/compare/v1.0.4...v1.0.5) (2026-06-07)
+
+
+### Bug Fixes
+
+* docs, token is mandatory; ([be6a9d3](https://github.com/brewek/mcp-server-ggdeals/commit/be6a9d3b78e1a07109ef1bcc6e91855a98bff9bf))
+
 ## [1.0.4](https://github.com/brewek/mcp-server-ggdeals/compare/v1.0.3...v1.0.4) (2026-06-07)
 
 

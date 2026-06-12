@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/brewek/mcp-server-ggdeals/compare/v1.0.5...v1.0.6) (2026-06-12)
+
+
+### Bug Fixes
+
+* remove fake date from get_historical_low ([c84d16f](https://github.com/brewek/mcp-server-ggdeals/commit/c84d16f5152c4340f85029782ddbe60091d70f9f))
+
 ## [1.0.5](https://github.com/brewek/mcp-server-ggdeals/compare/v1.0.4...v1.0.5) (2026-06-07)
 
 

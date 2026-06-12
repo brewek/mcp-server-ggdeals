@@ -34,7 +34,6 @@ export const GamePricesResponseSchema = z.object({
 const HistoricalLowSchema = z.object({
   store: z.string(),
   price: z.number(),
-  date: z.string(),
 });
 export const HistoricalLowResponseSchema = z.object({
   gameId: z.string(),
@@ -98,5 +97,5 @@ export async function getHistoricalLowApi(gameId: string) {
     store = 'Keyshops';
   } else throw new Error('No historical low');
 
-  return { gameId, historicalLow: { store, price, date: new Date().toISOString().split('T')[0] } };
+  return { gameId, historicalLow: { store, price } };
 }

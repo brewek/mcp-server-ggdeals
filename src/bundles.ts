@@ -2,10 +2,7 @@ import { z } from 'zod';
 import { fetchFromApi, parsePrice } from './api.js';
 
 export const GetGameBundlesParamsSchema = z.object({
-  gameId: z
-    .string()
-    .min(1, 'Game ID is required')
-    .describe('The unique base game ID from gg.deals'),
+  gameId: z.string().min(1, 'Game ID is required').describe('The unique base Steam App ID'),
 });
 
 export const GameBundlesResponseSchema = z.object({
@@ -28,7 +25,7 @@ export async function getGameBundlesApi(gameId: string) {
   const bundles = bundlesRaw.map((b: any) => ({
     id: String(b.id || ''),
     name: b.name || 'Unknown Bundle',
-    price: parsePrice(b.price),
+    price: parsePrice(b.price) ?? undefined,
     url: b.url || 'https://gg.deals',
   }));
 

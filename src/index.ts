@@ -28,7 +28,8 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
     tools: [
       {
         name: 'search_games',
-        description: "Search for video games by title on gg.deals. Use this to find a game's ID.",
+        description:
+          "Search for video games by title on Steam. Use this to find a game's Steam App ID.",
         inputSchema: {
           type: 'object',
           properties: {
@@ -47,7 +48,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
         inputSchema: {
           type: 'object',
           properties: {
-            gameId: { type: 'string', description: 'The unique game ID from gg.deals' },
+            gameId: { type: 'string', description: 'The unique Steam App ID' },
             region: { type: 'string', description: "The region code for pricing (default: 'us')" },
           },
           required: ['gameId'],
@@ -59,7 +60,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
         inputSchema: {
           type: 'object',
           properties: {
-            gameId: { type: 'string', description: 'The unique game ID from gg.deals' },
+            gameId: { type: 'string', description: 'The unique Steam App ID' },
           },
           required: ['gameId'],
         },
@@ -71,7 +72,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
         inputSchema: {
           type: 'object',
           properties: {
-            gameId: { type: 'string', description: 'The unique base game ID' },
+            gameId: { type: 'string', description: 'The unique base Steam App ID' },
           },
           required: ['gameId'],
         },

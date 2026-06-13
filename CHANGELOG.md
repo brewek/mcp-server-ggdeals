@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/brewek/mcp-server-ggdeals/compare/v1.0.6...v1.0.7) (2026-06-13)
+
+
+### Bug Fixes
+
+* resolve zod validation errors and fix mock dates ([d6b4dfc](https://github.com/brewek/mcp-server-ggdeals/commit/d6b4dfcd4cf5514c2dc1a312c3635d37347854a9))
+
 ## [1.0.6](https://github.com/brewek/mcp-server-ggdeals/compare/v1.0.5...v1.0.6) (2026-06-12)
 
 

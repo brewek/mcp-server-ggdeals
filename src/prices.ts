@@ -2,10 +2,7 @@ import { z } from 'zod';
 import { fetchFromApi, parsePrice } from './api.js';
 
 export const GetGamePricesParamsSchema = z.object({
-  gameId: z
-    .string()
-    .min(1, 'Game ID is required')
-    .describe('The unique identifier for the game on gg.deals'),
+  gameId: z.string().min(1, 'Game ID is required').describe('The unique Steam App ID'),
   region: z
     .string()
     .optional()
@@ -13,10 +10,7 @@ export const GetGamePricesParamsSchema = z.object({
     .describe('The region code for pricing (e.g., us, eu, uk)'),
 });
 export const GetHistoricalLowParamsSchema = z.object({
-  gameId: z
-    .string()
-    .min(1, 'Game ID is required')
-    .describe('The unique identifier for the game on gg.deals'),
+  gameId: z.string().min(1, 'Game ID is required').describe('The unique Steam App ID'),
 });
 
 const DealSchema = z.object({
@@ -34,6 +28,7 @@ export const GamePricesResponseSchema = z.object({
 const HistoricalLowSchema = z.object({
   store: z.string(),
   price: z.number(),
+  date: z.string().optional(),
 });
 export const HistoricalLowResponseSchema = z.object({
   gameId: z.string(),
